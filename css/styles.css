@@ -5,6 +5,11 @@
     margin-right: auto;
     margin-top: 1vw;
 }
+
+.navlink{
+    width: 7rem;
+}
+
 .card{
     display: inline-block;
     width: 30%;
