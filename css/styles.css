@@ -1,0 +1,39 @@
+.rounded-circle{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+}
+.card-title{
+    font-size: calc(0.5rem + 1vw);
+}
+.card-text{
+    font-size: 1vw;
+}
+
+.carousel-caption{
+    background-color: rgba(50,50,50,0.5);
+}
+.carousel-control-next, .carousel-control-prev{
+    height: 20%;
+    margin-top: 80%;
+}
+
+#post{
+    width: 100%;
+}
+#postImg{
+    height: 10vw;
+    width: auto;
+}
+#postContent{
+    text-align: left;
+}
+.card-header{
+    text-align: left;
+}
