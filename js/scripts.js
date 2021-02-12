@@ -16,3 +16,14 @@ function posts(){
     document.getElementById("about").innerHTML = "About Me";
     document.getElementById("friends").innerHTML = "Friends";
 }
+
+var profile = true;
+function toggleProfile(){
+    if(profile){
+        document.getElementById("profileBtn").innerHTML = '<img src="images/arrowDown.png" height="100%" width="100%">';
+        profile = false;
+    }else{
+        document.getElementById("profileBtn").innerHTML = '<img src="images/arrowUp.png" height="100%" width="100%">';
+        profile = true;
+    }
+}
