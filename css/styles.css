@@ -12,12 +12,16 @@
 
 .card{
     display: inline-block;
+    margin-bottom: 1vw;
     width: 30%;
 }
 .card-title{
     font-size: calc(0.5rem + 1vw);
 }
 .card-text{
+    font-size: 1vw;
+}
+#friendName{
     font-size: 1vw;
 }
 
