@@ -5,7 +5,19 @@
     margin-right: auto;
     margin-top: 1vw;
 }
+.border-primary{
+    border-color: #4571ff !important;
+}
 
+.bg-primary {
+    background-color: #4718be !important;
+    color: white;
+  }
+  
+.bg-secondary {
+   background-color: #3933e8 !important;
+   color: white;
+}
 .navlink{
     width: 7rem;
 }
@@ -25,16 +37,9 @@
     font-size: 1vw;
 }
 
-.carousel-caption{
-    background-color: rgba(50,50,50,0.5);
-}
-.carousel-control-next, .carousel-control-prev{
-    height: 20%;
-    margin-top: 80%;
-}
-
 #post{
-    width: 100%;
+    width: 30%;
+    display: inline-block;
 }
 #postImg{
     height: 10vw;
@@ -45,4 +50,27 @@
 }
 .card-header{
     text-align: left;
+    background-color: #4571ff;
+    color: white;
+}
+
+#collapseExample{
+    border: 1px #4571ff solid !important;
+    border-top: 0px;
+}
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+#profileBtn{
+    width: 4vw;
+    height: 2vw;
+}
+
+.accordion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
